@@ -1,13 +1,13 @@
-package programmers;
+package programmers.q43165;
 
 import org.junit.Test;
 
-public class q43165Test {
+public class SolutionTest {
 
     @Test
     public void name() {
 
-        q43165 asdf = new q43165();
+        Solution asdf = new Solution();
         int[] numbers = { 1,1,1,1,1};
         System.out.println(asdf.solution(numbers,3));
     }
