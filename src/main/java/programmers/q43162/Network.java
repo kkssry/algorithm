@@ -1,5 +1,6 @@
 package programmers.q43162;
 
+import java.util.Arrays;
 import java.util.LinkedList;
 
 public class Network {
@@ -9,7 +10,7 @@ public class Network {
         boolean connected;
 
         private Computer(int index) {
-            this.index = index;
+            this.index = index+1;
             directConnect = new LinkedList<>();
             connected = false;
         }
@@ -43,10 +44,10 @@ public class Network {
             return;
         }
         isNewNetwork(computer);
-        for (Computer directConnetComputer : computer.directConnect) {
-            if (!directConnetComputer.connected) {
-                directConnetComputer.connected = true;
-                findNetwork(directConnetComputer);
+        for (Computer directConnectComputer : computer.directConnect) {
+            if (!directConnectComputer.connected) {
+                directConnectComputer.connected = true;
+                findNetwork(directConnectComputer);
             }
         }
     }
@@ -74,5 +75,13 @@ public class Network {
         network.setConnection(computers);
         network.countAllNetwork();
         return network.getNetwork();
+    }
+
+    @Override
+    public String toString() {
+        return "Network{" +
+                "computers=" + Arrays.toString(computers) +
+                ", network=" + network +
+                '}';
     }
 }
