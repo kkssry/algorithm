@@ -20,7 +20,7 @@ public class SolutionTest {
     @Test
     public void test() {
         Solution solution = new Solution();
-        int[] a = {0,0,0,0,0};
+        int[] a = {0,0,1,3,4,5,6};
 //        Arrays.sort(a);
 //        System.out.println(Arrays.toString(a));
 //        System.out.println();
