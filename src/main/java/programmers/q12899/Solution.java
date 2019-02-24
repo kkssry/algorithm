@@ -2,25 +2,18 @@ package programmers.q12899;
 
 public class Solution {
     public String solution(int n) {
-        StringBuffer sb = new StringBuffer();
         String answer = "";
-        int mock = mock(n);
-        int rest = rest(n);
-
-        while (mock != 0) {
-            if (rest == 0) {
-                sb.append("4");
-                rest = ((mock-1) % 3);
-                mock = ((mock-1) / 3);
-                continue;
+        int[] arr = {4, 1, 2};
+        int a;
+        while (n > 0) {
+            a = n % 3;
+            n = n / 3;
+            if (a == 0) {
+                n -= 1;
             }
-//            answer += rest;
-            sb.append(rest);
-            rest = mock % 3;
-            mock /= 3;
+            answer = arr[a] + answer;
         }
-        sb.append(rest);
-        return Integer.parseInt(reverse(sb)) + "";
+        return answer;
     }
 
 
