@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75666759-2b82-48a6-8212-c30d1ae59d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/q12953/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programmers/q12953/SolutionTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/q42586/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/programmers/q42585/SolutionTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/q12899/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/q12899/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/q12953/Solution.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/q12953/Solution.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/programmers/q12953/SolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/programmers/q12953/SolutionTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/q12953/Solution.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programmers/q12953/Solution.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/programmers/q12953/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/programmers/q12953/SolutionTest.java" afterDir="false" />
     </list>
     <list id="c812c7c6-e97e-4a92-91ef-0e75f92b1133" name="깊이/너비 우선탐색(DFS/BFS) 타겟너버" comment="깊이/너비 우선탐색(DFS/BFS) 타겟너버&#10;&#10;(cherry picked from commit 760da5b5e6a3760c596b0ab46ee5e24daab59e49)">
       <changelist_data name="kkssry" email="kkssry@naver.com" date="1549272326000" />
@@ -25,14 +28,14 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.6295238">
+    <splitter split-orientation="horizontal" split-proportion="0.7731544">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q12953/Solution.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q42586/Solution.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="241">
-                  <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+                <state relative-caret-position="40">
+                  <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -40,15 +43,24 @@
               </provider>
             </entry>
           </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="12" selection-start-line="12" selection-end-line="12" />
+                </state>
+              </provider>
+            </entry>
+          </file>
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q12953/SolutionTest.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q42585/SolutionTest.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="91">
-                  <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+                <state relative-caret-position="950">
+                  <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -121,13 +133,17 @@
         <option value="$PROJECT_DIR$/src/main/java/programmers/q12899/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/q12953/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/programmers/q12953/Solution.java" />
+        <option value="$PROJECT_DIR$/src/main/java/programmers/q42585/Solution.java" />
+        <option value="$PROJECT_DIR$/src/test/java/programmers/q42585/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/programmers/q42586/Solution.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="541" />
-    <option name="width" value="1388" />
-    <option name="height" value="1038" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="97" />
+    <option name="y" value="43" />
+    <option name="width" value="1390" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -175,7 +191,7 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="programmers" type="462c0819:PsiDirectoryNode" />
-              <item name="q12953" type="462c0819:PsiDirectoryNode" />
+              <item name="q42586" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
@@ -235,7 +251,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551534033488" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551592114411" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -246,11 +262,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="programmers.q42585" />
       <recent name="programmers.q12953" />
       <recent name="programmers.test" />
       <recent name="programmers" />
       <recent name="programmers.q12899" />
-      <recent name="programmers.q42839" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -268,82 +284,82 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SolutionTest.mainTest">
-    <configuration name="SolutionTest.arr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.SolutionTest.mainTest (1)">
+    <configuration name="SolutionTest.올림테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_practice.algorithm_practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.q12953.*" />
+          <option name="PATTERN" value="programmers.q42585.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="programmers.q12953" />
-      <option name="MAIN_CLASS_NAME" value="programmers.q12953.SolutionTest" />
-      <option name="METHOD_NAME" value="arr" />
+      <option name="PACKAGE_NAME" value="programmers.q42585" />
+      <option name="MAIN_CLASS_NAME" value="programmers.q42585.SolutionTest" />
+      <option name="METHOD_NAME" value="올림테스트" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.큐순서테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_practice.algorithm_practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.q12953.*" />
+          <option name="PATTERN" value="programmers.q42585.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="programmers.q12953" />
-      <option name="MAIN_CLASS_NAME" value="programmers.q12953.SolutionTest" />
+      <option name="PACKAGE_NAME" value="programmers.q42585" />
+      <option name="MAIN_CLASS_NAME" value="programmers.q42585.SolutionTest" />
+      <option name="METHOD_NAME" value="큐순서테스트" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.나누기타입" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_practice.algorithm_practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.q42585.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="programmers.q42585" />
+      <option name="MAIN_CLASS_NAME" value="programmers.q42585.SolutionTest" />
+      <option name="METHOD_NAME" value="나누기타입" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SolutionTest.mainTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_practice.algorithm_practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.q42585.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="programmers.q42585" />
+      <option name="MAIN_CLASS_NAME" value="programmers.q42585.SolutionTest" />
       <option name="METHOD_NAME" value="mainTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.name" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SolutionTest.queueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_practice.algorithm_practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.q12899.*" />
+          <option name="PATTERN" value="programmers.q42585.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="programmers.q12899" />
-      <option name="MAIN_CLASS_NAME" value="programmers.q12899.SolutionTest" />
-      <option name="METHOD_NAME" value="name" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.setTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_practice.algorithm_practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.q42747.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="programmers.q42747" />
-      <option name="MAIN_CLASS_NAME" value="programmers.q42747.SolutionTest" />
-      <option name="METHOD_NAME" value="setTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_practice.algorithm_practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.q42747.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="programmers.q42747" />
-      <option name="MAIN_CLASS_NAME" value="programmers.q42747.SolutionTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="programmers.q42585" />
+      <option name="MAIN_CLASS_NAME" value="programmers.q42585.SolutionTest" />
+      <option name="METHOD_NAME" value="queueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -351,11 +367,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.SolutionTest.mainTest" />
-        <item itemvalue="JUnit.SolutionTest.arr" />
-        <item itemvalue="JUnit.SolutionTest.setTest" />
-        <item itemvalue="JUnit.SolutionTest.test" />
-        <item itemvalue="JUnit.SolutionTest.name" />
+        <item itemvalue="JUnit.SolutionTest.mainTest (1)" />
+        <item itemvalue="JUnit.SolutionTest.나누기타입" />
+        <item itemvalue="JUnit.SolutionTest.큐순서테스트" />
+        <item itemvalue="JUnit.SolutionTest.올림테스트" />
+        <item itemvalue="JUnit.SolutionTest.queueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -373,35 +389,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_mainTest - 2019.03.02 at 22h 07m 47s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_mainTest_(1) - 2019.03.03 at 14h 30m 41s.xml">
+      <configuration name="SolutionTest.mainTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.02 at 22h 08m 02s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_나누기타입 - 2019.03.03 at 14h 31m 23s.xml">
+      <configuration name="SolutionTest.나누기타입" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.02 at 22h 09m 22s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_나누기타입 - 2019.03.03 at 14h 32m 55s.xml">
+      <configuration name="SolutionTest.나누기타입" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.02 at 22h 10m 16s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_mainTest_(1) - 2019.03.03 at 14h 33m 30s.xml">
+      <configuration name="SolutionTest.mainTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.02 at 22h 13m 01s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_나누기타입 - 2019.03.03 at 14h 35m 42s.xml">
+      <configuration name="SolutionTest.나누기타입" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.02 at 22h 17m 03s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_mainTest_(1) - 2019.03.03 at 14h 36m 30s.xml">
+      <configuration name="SolutionTest.mainTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.02 at 22h 17m 25s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_mainTest_(1) - 2019.03.03 at 14h 37m 48s.xml">
+      <configuration name="SolutionTest.mainTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.02 at 22h 18m 02s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_mainTest_(1) - 2019.03.03 at 14h 38m 38s.xml">
+      <configuration name="SolutionTest.mainTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.02 at 22h 23m 57s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_mainTest_(1) - 2019.03.03 at 14h 39m 13s.xml">
+      <configuration name="SolutionTest.mainTest (1)" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.02 at 22h 27m 37s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="SolutionTest_mainTest_(1) - 2019.03.03 at 14h 41m 41s.xml">
+      <configuration name="SolutionTest.mainTest (1)" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -414,10 +430,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="433" y="0" width="1110" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.41192788" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.18947369" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -429,8 +445,8 @@
       <window_info id="Job Explorer" order="9" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3078056" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.23546945" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39911634" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.04418262" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.0736377" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.20176731" />
@@ -875,20 +891,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q12953/SolutionTest.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/System.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="12" column="29" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
+        <state relative-caret-position="5890">
+          <caret line="352" column="30" selection-start-line="352" selection-start-column="30" selection-end-line="352" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q12953/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="121">
+          <caret line="23" column="16" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q12953/Solution.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q12953/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="241">
-          <caret line="58" column="13" lean-forward="true" selection-start-line="58" selection-start-column="13" selection-end-line="58" selection-end-column="13" />
+        <state relative-caret-position="228">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/a6c32b40bf3d76eca54e3c601e5d1470c86fcdfa/junit-4.12-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q42585/SolutionTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q42586/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

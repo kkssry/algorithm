@@ -10,7 +10,7 @@ public class SolutionTest {
     @Test
     public void mainTest() {
         Solution sol = new Solution();
-        int[] arr = {5,15,4,8};
+        int[] arr = {1,3,5,7,11,29,30,43,5,6,7,8,9,98,100};
         System.out.println(sol.solution(arr));
     }
 
@@ -25,5 +25,12 @@ public class SolutionTest {
             arr[i] = arr[i] + 2;
         }
         return arr;
+    }
+
+    @Test
+    public void math_sqrt_test() {
+        int a = 27;
+        System.out.println(Math.sqrt(a));
+        System.out.println((int)Math.sqrt(a));
     }
 }
