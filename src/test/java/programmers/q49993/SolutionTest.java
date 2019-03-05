@@ -59,4 +59,6 @@ public class SolutionTest {
         Solution sol = new Solution();
         System.out.println(sol.solution("CB", a));
     }
+
+
 }
