@@ -1,25 +1,29 @@
 package programmers.q42629;
 
-import java.util.Collections;
-import java.util.PriorityQueue;
+import java.util.*;
 
 public class Solution {
     public int solution(int stock, int[] dates, int[] supplies, int k) {
         int answer = 0;
         int rest = stock;
-        PriorityQueue<Integer> supplyQueue = new PriorityQueue<>(Collections.reverseOrder());
+        Map<Integer, Integer> map = new HashMap();
+        for (int i = 0; i < dates.length; i++) {
+            map.put(dates[i],supplies[i]);
+        }
+
+        PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
 
         for (int i = 1; i < k; i++) {
-           for (int t = 0; t < dates.length; t++) {
-                if (dates[t] == i) {
-                    supplyQueue.add(supplies[t]);
+            while (rest <= i) {
+                if (queue.isEmpty()) {
+                    break;
                 }
+                rest += queue.poll();
+                answer++;
             }
-
-           if (rest < k ) {
-               rest += supplyQueue.poll();
-               answer++;
-           }
+            if (map.containsKey(i)) {
+                 queue.add(map.get(i));
+            }
 
         }
 
