@@ -2,11 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75666759-2b82-48a6-8212-c30d1ae59d80" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/programmers/q42626/SolutionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/programmers/q42626/SolutionTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/programmers/q42626/SolutionTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/programmers/q42626/SolutionTest.java" afterDir="false" />
     </list>
     <list id="c812c7c6-e97e-4a92-91ef-0e75f92b1133" name="깊이/너비 우선탐색(DFS/BFS) 타겟너버" comment="깊이/너비 우선탐색(DFS/BFS) 타겟너버&#10;&#10;(cherry picked from commit 760da5b5e6a3760c596b0ab46ee5e24daab59e49)">
       <changelist_data name="kkssry" email="kkssry@naver.com" date="1549272326000" />
@@ -47,9 +43,21 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q12933/Solution.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="392">
+                  <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q42862/Solution.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-814">
+                <state relative-caret-position="418">
                   <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
                 </state>
               </provider>
@@ -150,8 +158,8 @@
         <option value="$PROJECT_DIR$/src/test/java/programmers/q42626/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/q12933/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/programmers/q12933/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/programmers/q42862/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/q42862/SolutionTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/programmers/q42862/Solution.java" />
       </list>
     </option>
   </component>
@@ -242,6 +250,15 @@
               <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
               <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="programmers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="q12933" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="algorithm_practice" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="algorithm_practice" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="algorithm_practice" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="main" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="programmers" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="q42862" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
@@ -254,7 +271,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552043268591" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552043386170" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -484,7 +501,7 @@
     <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11621621" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2681081" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -496,7 +513,7 @@
       <window_info id="Job Explorer" order="9" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3078056" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.31609195" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.31609195" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30689654" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1013,16 +1030,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q12933/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="258">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q12933/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -1055,8 +1062,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q42862/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-814">
+        <state relative-caret-position="418">
           <caret line="19" column="9" lean-forward="true" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q12933/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
