@@ -15,7 +15,8 @@ public class SolutionTest {
     @Test
     public void 함수의매개변수값변화() {
         int a = 3;
-        System.out.println("22 " + test(a));
+        System.out.println( test(a)); // a가 4가리턴
+
         System.out.println("33 " + a);
     }
 
