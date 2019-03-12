@@ -1,24 +1,26 @@
 package programmers.q42883;
 
-import java.util.PriorityQueue;
-
 public class Solution {
     public String solution(String number, int k) {
-        String answer = "";
+        StringBuilder sb = new StringBuilder(number);
 
-        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        while (k > 0) {
+            boolean deleted = false;
 
-        String[] numbers = number.split("");
-        for (int i = 0; i < numbers.length; i++) {
-            queue.add(Integer.parseInt(numbers[i]));
+            for (int i = 0; i < sb.length() - 1; i++) {
+                if (sb.charAt(i) < sb.charAt(i + 1)) {
+                    sb.deleteCharAt(i);
+                    deleted = true;
+                    break;
+                }
+            }
+
+            if (!deleted) {
+                sb.deleteCharAt(sb.length() - 1);
+            }
+
+            k--;
         }
-
-        for (int i = 0; i < k; i++) {
-            queue.poll();
-        }
-
-
-
-        return answer;
+        return sb.toString();
     }
 }
