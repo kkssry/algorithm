@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75666759-2b82-48a6-8212-c30d1ae59d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/school/week1/하샤드수.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programmers/school/week1/하샤드수Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/school/week1/모의고사.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/programmers/school/week1/모의고사Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="c812c7c6-e97e-4a92-91ef-0e75f92b1133" name="깊이/너비 우선탐색(DFS/BFS) 타겟너버" comment="깊이/너비 우선탐색(DFS/BFS) 타겟너버&#10;&#10;(cherry picked from commit 760da5b5e6a3760c596b0ab46ee5e24daab59e49)">
@@ -87,14 +87,14 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.49307957">
+    <splitter split-orientation="horizontal" split-proportion="0.5442953">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/하샤드수.java">
+            <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/모의고사.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="252">
-                  <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+                <state relative-caret-position="180">
+                  <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
                 </state>
               </provider>
             </entry>
@@ -102,21 +102,12 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+        <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/programmers/school/week1/하샤드수Test.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/programmers/school/week1/모의고사Test.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q42862/SolutionTest.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="198">
-                  <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+                <state relative-caret-position="138">
+                  <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -156,8 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/programmers/q42747/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/programmers/q49993/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/q42578/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/programmers/q42578/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/q42840/SolutionTest.java" />
@@ -205,15 +194,17 @@
         <option value="$PROJECT_DIR$/src/main/java/programmers/q42841/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/q42839/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/programmers/q42839/Solution.java" />
-        <option value="$PROJECT_DIR$/src/main/java/programmers/school/week1/하샤드수.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/school/week1/하샤드수Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/programmers/school/week1/하샤드수.java" />
+        <option value="$PROJECT_DIR$/src/test/java/programmers/school/week1/모의고사Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/programmers/school/week1/모의고사.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="855" />
-    <option name="width" value="1074" />
-    <option name="height" value="1040" />
+    <option name="x" value="777" />
+    <option name="width" value="1152" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -255,15 +246,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="programmers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
-              <item name="q42862" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
@@ -331,7 +313,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552886750935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552891337692" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -364,23 +346,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.하샤드수Test.mainTest">
-    <configuration name="SolutionTest.문자배열스트링" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_practice.algorithm_practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.q42839.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="programmers.q42839" />
-      <option name="MAIN_CLASS_NAME" value="programmers.q42839.SolutionTest" />
-      <option name="METHOD_NAME" value="문자배열스트링" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.모의고사Test.mainTest">
     <configuration name="SolutionTest.대소비교" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_practice.algorithm_practice.test" />
       <extension name="coverage">
@@ -525,17 +491,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SolutionTest.substringTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="모의고사Test.배열정렬" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_practice.algorithm_practice.test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="programmers.q42839.*" />
+          <option name="PATTERN" value="programmers.school.week1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="programmers.q42839" />
-      <option name="MAIN_CLASS_NAME" value="programmers.q42839.SolutionTest" />
-      <option name="METHOD_NAME" value="substringTest" />
+      <option name="PACKAGE_NAME" value="programmers.school.week1" />
+      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.모의고사Test" />
+      <option name="METHOD_NAME" value="배열정렬" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -551,6 +517,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="programmers.school.week1" />
       <option name="MAIN_CLASS_NAME" value="programmers.school.week1.하샤드수Test" />
+      <option name="METHOD_NAME" value="mainTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="모의고사Test.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_practice.algorithm_practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.school.week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="programmers.school.week1" />
+      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.모의고사Test" />
       <option name="METHOD_NAME" value="mainTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -575,11 +557,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.모의고사Test.mainTest" />
+        <item itemvalue="JUnit.모의고사Test.배열정렬" />
         <item itemvalue="JUnit.하샤드수Test.mainTest" />
         <item itemvalue="JUnit.하샤드수Test.스트링n번째문자열" />
         <item itemvalue="JUnit.SolutionTest.mainTest" />
-        <item itemvalue="JUnit.SolutionTest.substringTest" />
-        <item itemvalue="JUnit.SolutionTest.문자배열스트링" />
       </list>
     </recent_temporary>
   </component>
@@ -597,35 +579,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SolutionTest_mainTest - 2019.03.16 at 17h 30m 27s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="모의고사Test_mainTest - 2019.03.18 at 15h 00m 38s.xml">
+      <configuration name="모의고사Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.16 at 17h 34m 44s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="모의고사Test_mainTest - 2019.03.18 at 15h 00m 54s.xml">
+      <configuration name="모의고사Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.16 at 17h 35m 14s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="모의고사Test_mainTest - 2019.03.18 at 15h 01m 13s.xml">
+      <configuration name="모의고사Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.16 at 17h 35m 36s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="모의고사Test_mainTest - 2019.03.18 at 15h 25m 04s.xml">
+      <configuration name="모의고사Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.16 at 17h 37m 20s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="모의고사Test_mainTest - 2019.03.18 at 15h 28m 47s.xml">
+      <configuration name="모의고사Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.16 at 17h 37m 44s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="모의고사Test_mainTest - 2019.03.18 at 15h 32m 51s.xml">
+      <configuration name="모의고사Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.16 at 17h 43m 06s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="모의고사Test_mainTest - 2019.03.18 at 15h 33m 00s.xml">
+      <configuration name="모의고사Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="SolutionTest_mainTest - 2019.03.16 at 17h 43m 18s.xml">
-      <configuration name="SolutionTest.mainTest" configurationId="JUnit" />
+    <history-entry file="모의고사Test_mainTest - 2019.03.18 at 15h 34m 22s.xml">
+      <configuration name="모의고사Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="하샤드수Test_mainTest - 2019.03.18 at 08h 51m 04s.xml">
-      <configuration name="하샤드수Test.mainTest" configurationId="JUnit" />
+    <history-entry file="모의고사Test_mainTest - 2019.03.18 at 15h 35m 51s.xml">
+      <configuration name="모의고사Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="하샤드수Test_mainTest - 2019.03.18 at 08h 52m 11s.xml">
-      <configuration name="하샤드수Test.mainTest" configurationId="JUnit" />
+    <history-entry file="모의고사Test_mainTest - 2019.03.18 at 15h 37m 08s.xml">
+      <configuration name="모의고사Test.mainTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -641,7 +623,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17114094" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.35367545" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -653,7 +635,7 @@
       <window_info id="Job Explorer" order="9" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3078056" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.25641027" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.24216524" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.30689654" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -756,26 +738,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q42586/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="42" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q42585/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-228">
-          <caret line="9" column="26" selection-start-line="9" selection-start-column="26" selection-end-line="9" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q42746/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -1118,21 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-          <folding>
-            <element signature="e#66457#66458#0" expanded="true" />
-            <element signature="e#66495#66496#0" expanded="true" />
-            <element signature="e#78240#78241#0" expanded="true" />
-            <element signature="e#78299#78300#0" expanded="true" />
-            <element signature="e#82971#82972#0" expanded="true" />
-            <element signature="e#83020#83021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q42839/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="558">
@@ -1150,6 +1097,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/school/week1/하샤드수Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="34" lean-forward="true" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q42862/SolutionTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -1160,17 +1114,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/하샤드수.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+        <state relative-caret-position="165">
+          <caret line="655" column="16" selection-start-line="655" selection-start-column="16" selection-end-line="655" selection-end-column="16" />
+          <folding>
+            <element signature="e#66457#66458#0" expanded="true" />
+            <element signature="e#66495#66496#0" expanded="true" />
+            <element signature="e#78240#78241#0" expanded="true" />
+            <element signature="e#78299#78300#0" expanded="true" />
+            <element signature="e#82971#82972#0" expanded="true" />
+            <element signature="e#83020#83021#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/school/week1/하샤드수Test.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/하샤드수.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="23" column="37" selection-start-line="23" selection-start-column="37" selection-end-line="23" selection-end-column="37" />
+        <state relative-caret-position="342">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/모의고사.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="40" column="28" selection-start-line="40" selection-start-column="28" selection-end-line="40" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/school/week1/모의고사Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
