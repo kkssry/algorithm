@@ -2,14 +2,17 @@ package programmers.school.week1;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
 
 import static org.junit.Assert.*;
 
 public class 소수만들기Test {
     @Test
     public void mainTest() {
-        int[] nums = {1,2,8,5};
+        int[] nums = {1,2,3,4};
         소수만들기 sol = new 소수만들기();
         System.out.println(sol.solution(nums));
 
@@ -41,5 +44,14 @@ public class 소수만들기Test {
             nums[i] = i + 1000;
         }
 
+    }
+
+    @Test
+    public void 배열을리스트로() {
+        int[] a = {1,2,3};
+        int b= Integer.parseInt(Stream.of(String.valueOf(a).split("")).mapToInt(Integer::parseInt).toString());
+        System.out.println(b);
+        List<Integer> list = new ArrayList<>();
+//        list.add()
     }
 }
