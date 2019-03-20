@@ -7,10 +7,10 @@ public class 하샤드수 {
         String number = x + "";
         int hashad = 0;
 
-//        String[] numbers = number.split("");
-//        for (int i = 0; i < number.length(); i++) {
-//            hashad += Integer.parseInt(numbers[i]);
-//        }
+        String[] numbers = number.split("");
+        for (int i = 0; i < number.length(); i++) {
+            hashad += Integer.parseInt(numbers[i]);
+        }
 
         for (int i = 0; i < number.length(); i++) {
             hashad += Character.getNumericValue(number.charAt(i));
