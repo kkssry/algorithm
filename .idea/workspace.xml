@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="75666759-2b82-48a6-8212-c30d1ae59d80" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/school/week1/다음큰숫자.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/school/week1/문자열내마음대로정렬하기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programmers/school/week1/다음큰숫자Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/programmers/school/week1/문자열내마음대로정렬하기Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/school/week1/방문길이.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/programmers/school/week1/스킬트리.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/programmers/school/week1/방문길이Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/programmers/school/week1/스킬트리Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/school/week1/K번째수.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/school/week1/K번째수.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/school/week1/하샤드수.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/school/week1/하샤드수.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/test/classes/programmers/school/week1/K번째수Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/programmers/school/week1/K번째수Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/school/week1/K번째수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programmers/school/week1/K번째수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/school/week1/하샤드수.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programmers/school/week1/하샤드수.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/programmers/school/week1/K번째수Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/programmers/school/week1/K번째수Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/school/week1/문자열내마음대로정렬하기$Word.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/school/week1/문자열내마음대로정렬하기$Word.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/programmers/school/week1/문자열내마음대로정렬하기.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/programmers/school/week1/문자열내마음대로정렬하기.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/programmers/school/week1/소수만들기.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/programmers/school/week1/소수만들기.java" afterDir="false" />
     </list>
     <list id="c812c7c6-e97e-4a92-91ef-0e75f92b1133" name="깊이/너비 우선탐색(DFS/BFS) 타겟너버" comment="깊이/너비 우선탐색(DFS/BFS) 타겟너버&#10;&#10;(cherry picked from commit 760da5b5e6a3760c596b0ab46ee5e24daab59e49)">
       <changelist_data name="kkssry" email="kkssry@naver.com" date="1549272326000" />
@@ -95,16 +92,57 @@
     </system>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.5616186">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/문자열내마음대로정렬하기.java">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/스킬트리.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="111">
-                  <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+                <state>
+                  <caret line="18" selection-start-line="18" selection-end-line="18" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/소수만들기.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="210">
+                  <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="192">
+                  <caret line="2131" column="19" selection-start-line="2131" selection-start-column="19" selection-end-line="2131" selection-end-column="19" />
+                  <folding>
+                    <element signature="e#66457#66458#0" expanded="true" />
+                    <element signature="e#66495#66496#0" expanded="true" />
+                    <element signature="e#78240#78241#0" expanded="true" />
+                    <element signature="e#78299#78300#0" expanded="true" />
+                    <element signature="e#82971#82972#0" expanded="true" />
+                    <element signature="e#83020#83021#0" expanded="true" />
+                    <element signature="e#94598#94599#0" expanded="true" />
+                    <element signature="e#94636#94637#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="226">
+                  <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+                  <folding>
+                    <element signature="e#5644#5645#0" expanded="true" />
+                    <element signature="e#5675#5676#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -115,14 +153,12 @@
       <split-second>
         <leaf>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/programmers/school/week1/문자열내마음대로정렬하기Test.java">
+            <entry file="file://$PROJECT_DIR$/src/test/java/programmers/school/week1/스킬트리Test.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="234">
-                  <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+                <state relative-caret-position="236">
+                  <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="47" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#469#470#0" expanded="true" />
-                    <element signature="e#543#544#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -160,11 +196,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/programmers/q12899/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/programmers/q12953/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/programmers/q12953/Solution.java" />
-        <option value="$PROJECT_DIR$/src/test/java/programmers/q42585/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/programmers/q42586/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/q49993/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/programmers/q42585/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/q425855/SolutionTest.java" />
@@ -200,7 +231,6 @@
         <option value="$PROJECT_DIR$/src/test/java/programmers/school/week1/모의고사Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/school/week1/소수만들기Test.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/q42895/SolutionTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/programmers/school/week1/소수만들기.java" />
         <option value="$PROJECT_DIR$/src/main/java/programmers/q42895/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/q42579/SolutionTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/programmers/q42579/Solution.java" />
@@ -211,14 +241,20 @@
         <option value="$PROJECT_DIR$/src/main/java/programmers/school/week1/다음큰숫자.java" />
         <option value="$PROJECT_DIR$/src/test/java/programmers/school/week1/문자열내마음대로정렬하기Test.java" />
         <option value="$PROJECT_DIR$/src/main/java/programmers/school/week1/문자열내마음대로정렬하기.java" />
+        <option value="$PROJECT_DIR$/src/main/java/programmers/singtone/SingletonePractice.java" />
+        <option value="$PROJECT_DIR$/src/test/java/programmers/school/week1/방문길이Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/programmers/school/week1/방문길이.java" />
+        <option value="$PROJECT_DIR$/src/test/java/programmers/school/week1/스킬트리Test.java" />
+        <option value="$PROJECT_DIR$/src/main/java/programmers/school/week1/스킬트리.java" />
+        <option value="$PROJECT_DIR$/src/main/java/programmers/school/week1/소수만들기.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1940" />
-    <option name="height" value="1050" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -226,8 +262,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -260,15 +294,6 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="programmers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="programmers" type="462c0819:PsiDirectoryNode" />
-              <item name="q42895" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="algorithm_practice" type="b2602c69:ProjectViewProjectNode" />
@@ -314,6 +339,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -322,10 +349,10 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="TODO_SCOPE" value="All Places" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553080837583" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553170798749" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../algorithm_test" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -355,56 +382,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.문자열내마음대로정렬하기Test.mainTest">
-    <configuration name="SolutionTest.문자열더하기숫자" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_practice.algorithm_practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.q12933.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="programmers.q12933" />
-      <option name="MAIN_CLASS_NAME" value="programmers.q12933.SolutionTest" />
-      <option name="METHOD_NAME" value="문자열더하기숫자" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.맵테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_practice.algorithm_practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.q42629.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="programmers.q42629" />
-      <option name="MAIN_CLASS_NAME" value="programmers.q42629.SolutionTest" />
-      <option name="METHOD_NAME" value="맵테스트" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SolutionTest.나누기타입" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_practice.algorithm_practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.q42585.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="programmers.q42585" />
-      <option name="MAIN_CLASS_NAME" value="programmers.q42585.SolutionTest" />
-      <option name="METHOD_NAME" value="나누기타입" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문자열내마음대로정렬하기Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.스킬트리Test.mainTest">
+    <configuration name="스킬트리Test.숫자배열테스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_practice.algorithm_practice.test" />
       <extension name="coverage">
         <pattern>
@@ -413,13 +392,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="programmers.school.week1" />
-      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.문자열내마음대로정렬하기Test" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.스킬트리Test" />
+      <option name="METHOD_NAME" value="숫자배열테스트" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="다음큰숫자Test.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="스킬트리Test.리스트비교" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_practice.algorithm_practice.test" />
       <extension name="coverage">
         <pattern>
@@ -428,24 +408,40 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="programmers.school.week1" />
-      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.다음큰숫자Test" />
+      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.스킬트리Test" />
+      <option name="METHOD_NAME" value="리스트비교" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="스킬트리Test.문자열리스트" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_practice.algorithm_practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.school.week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="programmers.school.week1" />
+      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.스킬트리Test" />
+      <option name="METHOD_NAME" value="문자열리스트" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="스킬트리Test.mainTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="algorithm_practice.algorithm_practice.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="programmers.school.week1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="programmers.school.week1" />
+      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.스킬트리Test" />
       <option name="METHOD_NAME" value="mainTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="문자열내마음대로정렬하기Test.mainTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="algorithm_practice.algorithm_practice.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="programmers.school.week1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="programmers.school.week1" />
-      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.문자열내마음대로정렬하기Test" />
-      <option name="METHOD_NAME" value="mainTest1" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -467,7 +463,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="다음큰숫자Test.methodTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="스킬트리Test.prioirQueueTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="algorithm_practice.algorithm_practice.test" />
       <extension name="coverage">
         <pattern>
@@ -476,8 +472,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="programmers.school.week1" />
-      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.다음큰숫자Test" />
-      <option name="METHOD_NAME" value="methodTest" />
+      <option name="MAIN_CLASS_NAME" value="programmers.school.week1.스킬트리Test" />
+      <option name="METHOD_NAME" value="prioirQueueTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -485,11 +481,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.문자열내마음대로정렬하기Test.mainTest" />
-        <item itemvalue="JUnit.문자열내마음대로정렬하기Test.mainTest1" />
-        <item itemvalue="JUnit.문자열내마음대로정렬하기Test" />
-        <item itemvalue="JUnit.다음큰숫자Test.mainTest" />
-        <item itemvalue="JUnit.다음큰숫자Test.methodTest" />
+        <item itemvalue="JUnit.스킬트리Test.mainTest" />
+        <item itemvalue="JUnit.스킬트리Test.문자열리스트" />
+        <item itemvalue="JUnit.스킬트리Test.리스트비교" />
+        <item itemvalue="JUnit.스킬트리Test.숫자배열테스트" />
+        <item itemvalue="JUnit.스킬트리Test.prioirQueueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -507,35 +503,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="다음큰숫자Test_mainTest - 2019.03.20 at 19h 19m 01s.xml">
-      <configuration name="다음큰숫자Test.mainTest" configurationId="JUnit" />
+    <history-entry file="스킬트리Test_mainTest - 2019.03.21 at 20h 39m 10s.xml">
+      <configuration name="스킬트리Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="다음큰숫자Test_methodTest - 2019.03.20 at 19h 20m 37s.xml">
-      <configuration name="다음큰숫자Test.methodTest" configurationId="JUnit" />
+    <history-entry file="스킬트리Test_mainTest - 2019.03.21 at 20h 39m 43s.xml">
+      <configuration name="스킬트리Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="다음큰숫자Test_mainTest - 2019.03.20 at 19h 21m 23s.xml">
-      <configuration name="다음큰숫자Test.mainTest" configurationId="JUnit" />
+    <history-entry file="스킬트리Test_mainTest - 2019.03.21 at 20h 42m 41s.xml">
+      <configuration name="스킬트리Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="다음큰숫자Test_mainTest - 2019.03.20 at 19h 21m 42s.xml">
-      <configuration name="다음큰숫자Test.mainTest" configurationId="JUnit" />
+    <history-entry file="스킬트리Test_mainTest - 2019.03.21 at 20h 42m 58s.xml">
+      <configuration name="스킬트리Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="문자열내마음대로정렬하기Test_mainTest1 - 2019.03.20 at 20h 12m 30s.xml">
-      <configuration name="문자열내마음대로정렬하기Test.mainTest1" configurationId="JUnit" />
+    <history-entry file="스킬트리Test_mainTest - 2019.03.21 at 21h 10m 03s.xml">
+      <configuration name="스킬트리Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="문자열내마음대로정렬하기Test_mainTest1 - 2019.03.20 at 20h 13m 52s.xml">
-      <configuration name="문자열내마음대로정렬하기Test.mainTest1" configurationId="JUnit" />
+    <history-entry file="스킬트리Test_mainTest - 2019.03.21 at 21h 10m 21s.xml">
+      <configuration name="스킬트리Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="문자열내마음대로정렬하기Test - 2019.03.20 at 20h 14m 19s.xml">
-      <configuration name="문자열내마음대로정렬하기Test" configurationId="JUnit" />
+    <history-entry file="스킬트리Test_mainTest - 2019.03.21 at 21h 11m 49s.xml">
+      <configuration name="스킬트리Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="문자열내마음대로정렬하기Test_mainTest1 - 2019.03.20 at 20h 14m 40s.xml">
-      <configuration name="문자열내마음대로정렬하기Test.mainTest1" configurationId="JUnit" />
+    <history-entry file="스킬트리Test_mainTest - 2019.03.21 at 21h 12m 20s.xml">
+      <configuration name="스킬트리Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="문자열내마음대로정렬하기Test_mainTest1 - 2019.03.20 at 20h 16m 13s.xml">
-      <configuration name="문자열내마음대로정렬하기Test.mainTest1" configurationId="JUnit" />
+    <history-entry file="스킬트리Test_mainTest - 2019.03.21 at 21h 13m 11s.xml">
+      <configuration name="스킬트리Test.mainTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="문자열내마음대로정렬하기Test - 2019.03.20 at 20h 16m 26s.xml">
-      <configuration name="문자열내마음대로정렬하기Test" configurationId="JUnit" />
+    <history-entry file="스킬트리Test_mainTest - 2019.03.21 at 21h 15m 36s.xml">
+      <configuration name="스킬트리Test.mainTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView" selected-index="1">
@@ -548,10 +544,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.1885906" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13059701" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -562,8 +558,8 @@
       <window_info id="Capture Tool" order="8" />
       <window_info id="Job Explorer" order="9" weight="0.3295302" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.30691642" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.45156696" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.30610022" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932885" visible="true" weight="0.40631807" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35185185" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -666,39 +662,6 @@
     </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q12982/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="15" column="54" lean-forward="true" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/test/Test3Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/TestTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/q42588/SolutionTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q42588/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q42883/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -710,13 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="828">
           <caret line="69" column="6" selection-start-line="69" selection-start-column="6" selection-end-line="69" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Set.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1872">
-          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
         </state>
       </provider>
     </entry>
@@ -889,13 +845,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/소수만들기.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="10" column="12" selection-start-line="10" selection-start-column="12" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/programmers/q43165/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -910,24 +859,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10368">
-          <caret line="599" column="6" selection-start-line="599" selection-start-column="6" selection-end-line="599" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/하샤드수.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="614">
-          <caret line="373" column="23" selection-start-line="373" selection-start-column="23" selection-end-line="373" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -963,28 +898,6 @@
             <element signature="e#10229#10230#0" expanded="true" />
             <element signature="e#10270#10271#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="1957" column="18" selection-start-line="1957" selection-start-column="18" selection-end-line="1957" selection-end-column="18" />
-          <folding>
-            <element signature="e#66457#66458#0" expanded="true" />
-            <element signature="e#66495#66496#0" expanded="true" />
-            <element signature="e#78240#78241#0" expanded="true" />
-            <element signature="e#78299#78300#0" expanded="true" />
-            <element signature="e#82971#82972#0" expanded="true" />
-            <element signature="e#83020#83021#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="1241" column="23" selection-start-line="1241" selection-start-column="23" selection-end-line="1241" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -1067,8 +980,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/문자열내마음대로정렬하기.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        <state relative-caret-position="-18">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1077,13 +990,120 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/programmers/school/week1/문자열내마음대로정렬하기Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="19" column="64" selection-start-line="19" selection-start-column="64" selection-end-line="19" selection-end-column="64" />
+        <state relative-caret-position="380">
+          <caret line="26" column="5" lean-forward="true" selection-start-line="26" selection-start-column="5" selection-end-line="26" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#469#470#0" expanded="true" />
             <element signature="e#543#544#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/singtone/SingletonePractice.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Set.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1872">
+          <caret line="127" column="16" selection-start-line="127" selection-start-column="16" selection-end-line="127" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Objects.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1746">
+          <caret line="126" column="22" selection-start-line="126" selection-start-column="22" selection-end-line="126" selection-end-column="22" />
+          <folding>
+            <element signature="e#1410#1411#0" expanded="true" />
+            <element signature="e#1471#1472#0" expanded="true" />
+            <element signature="e#3914#3915#0" expanded="true" />
+            <element signature="e#3960#3961#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72918">
+          <caret line="4138" column="22" selection-start-line="4138" selection-start-column="22" selection-end-line="4138" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3852">
+          <caret line="237" column="12" selection-start-line="237" selection-start-column="12" selection-end-line="237" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/방문길이.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/school/week1/방문길이Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="42" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/util/Collections.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="139" column="57" selection-start-line="139" selection-start-column="57" selection-end-line="139" selection-end-column="57" />
+          <folding>
+            <element signature="e#5644#5645#0" expanded="true" />
+            <element signature="e#5675#5676#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="192">
+          <caret line="2131" column="19" selection-start-line="2131" selection-start-column="19" selection-end-line="2131" selection-end-column="19" />
+          <folding>
+            <element signature="e#66457#66458#0" expanded="true" />
+            <element signature="e#66495#66496#0" expanded="true" />
+            <element signature="e#78240#78241#0" expanded="true" />
+            <element signature="e#78299#78300#0" expanded="true" />
+            <element signature="e#82971#82972#0" expanded="true" />
+            <element signature="e#83020#83021#0" expanded="true" />
+            <element signature="e#94598#94599#0" expanded="true" />
+            <element signature="e#94636#94637#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/programmers/school/week1/스킬트리Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/스킬트리.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/programmers/school/week1/소수만들기.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="26" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
         </state>
       </provider>
     </entry>
