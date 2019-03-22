@@ -11,6 +11,7 @@ public class 스킬트리Test {
     @Test
     public void mainTest() {
         String skill = "CBD";
+        skill.split("");
         String[] skill_trees = {"BACDE", "CBADF", "AECB", "BDA", "CADQ","BD"};
         스킬트리 sol = new 스킬트리();
         assertThat(sol.solution(skill, skill_trees)).isEqualTo(2);

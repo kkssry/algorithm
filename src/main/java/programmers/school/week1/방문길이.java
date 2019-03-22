@@ -10,41 +10,24 @@ public class 방문길이 {
         List<Line> coordinates = new ArrayList<>();
         Set<Line> walkingCount = new HashSet<>();
         Point nowPoint = new Point(0,0);
-
-
+        Point newPoint = null;
 
         for (int i = 0; i < directions.length; i++) {
-            if (i == 0) {
-                if (directions[i].equals("U")) {
-                    Point newPoint = new Point(nowPoint.x,nowPoint.y + 1);
-                    coordinates.add(new Line(nowPoint, newPoint ));
-                    nowPoint = newPoint;
-                }
-                if (directions[i].equals("D")) {
-                    coordinates.add(new Line(nowPoint, new Point(0, -1)));
-                }
-                if (directions[i].equals("R")) {
-                    coordinates.add(new Line(nowPoint, new Point(1, 0)));
-                }
-                if (directions[i].equals("L")) {
-                    coordinates.add(new Line(nowPoint, new Point(-1, 0)));
-                }
-                continue;
-            }
-
             if (directions[i].equals("U")) {
-                coordinates.add(new Line(new Point(coordinates.get(i - 1).p2.x,coordinates.get(i - 1).p2.y),  new Point(coordinates.get(i - 1).p2.x, coordinates.get(i -1).p2.y + 1)));
+                newPoint = new Point(nowPoint.x,nowPoint.y + 1);
             }
             if (directions[i].equals("D")) {
-                coordinates.add(new Line(new Point(coordinates.get(i - 1).p2.x,coordinates.get(i - 1).p2.y),  new Point(coordinates.get(i - 1).p2.x, coordinates.get(i -1).p2.y - 1)));
+                newPoint = new Point(nowPoint.x,nowPoint.y - 1);
             }
             if (directions[i].equals("R")) {
-                coordinates.add(new Line(new Point(coordinates.get(i - 1).p2.x,coordinates.get(i - 1).p2.y),  new Point(coordinates.get(i - 1).p2.x + 1, coordinates.get(i -1).p2.y)));
+                newPoint = new Point(nowPoint.x + 1,nowPoint.y);
             }
             if (directions[i].equals("L")) {
-                coordinates.add(new Line(new Point(coordinates.get(i - 1).p2.x,coordinates.get(i - 1).p2.y),  new Point(coordinates.get(i - 1).p2.x - 1, coordinates.get(i -1).p2.y)));
+                newPoint = new Point(nowPoint.x -1, nowPoint.y);
             }
 
+            coordinates.add(new Line(nowPoint, newPoint));
+            nowPoint = newPoint;
         }
 
 

@@ -7,8 +7,8 @@ import java.util.*;
 public class SolutionTest {
     @Test
     public void mainTest() {
-        String number = "4177252841";
-        int k = 4;
+        String number = "9999999";
+        int k = 2;
         Solution sol = new Solution();
         System.out.println(sol.solution(number, k));
     }

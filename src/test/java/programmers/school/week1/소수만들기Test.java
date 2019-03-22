@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
 public class 소수만들기Test {
     @Test
     public void mainTest() {
-        int[] nums = {1,2,3,4};
+        int[] nums = {1,2,7,6,4};
         소수만들기 sol = new 소수만들기();
         System.out.println(sol.solution(nums));
 
@@ -53,5 +53,10 @@ public class 소수만들기Test {
         System.out.println(b);
         List<Integer> list = new ArrayList<>();
 //        list.add()
+    }
+
+    @Test
+    public void name() {
+
     }
 }

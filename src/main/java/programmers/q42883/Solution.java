@@ -21,6 +21,7 @@ public class Solution {
 
             k--;
         }
+
         return sb.toString();
     }
 }

@@ -25,7 +25,6 @@ public class 모의고사 {
             }
         }
 
-        System.out.println(Arrays.toString(answer));
 
         int max = answer[0];
 
@@ -34,7 +33,6 @@ public class 모의고사 {
                 max = answer[i];
             }
         }
-        System.out.println(max);
 
         for (int i = 0; i < answer.length; i++) {
             if (answer[i] > 0 && answer[i] == max) {
