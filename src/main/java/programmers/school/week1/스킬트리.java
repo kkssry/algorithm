@@ -19,18 +19,17 @@ public class 스킬트리 {
                 }
             }
 
-            System.out.println(list);
 
-            boolean asdf = true;
+            boolean isExist = true;
 
             for (int i = 0; i < list.size(); i++) {
                 if (!list.get(i).equals(skill.charAt(i)+"")) {
-                    asdf = false;
+                    isExist = false;
                     break;
                 }
             }
 
-            if (asdf) {
+            if (isExist) {
                 ++answer;
             }
 
