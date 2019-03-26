@@ -13,7 +13,7 @@ public class Solution {
                 redArea.put(i,red/i);
             }
         }
-        
+
         Iterator iterator = redArea.entrySet().iterator();
         while(iterator.hasNext()) {
             Map.Entry entry = (Map.Entry)iterator.next();
