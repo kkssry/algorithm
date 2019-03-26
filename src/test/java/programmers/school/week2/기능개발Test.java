@@ -36,14 +36,19 @@ public class 기능개발Test {
     @Test
     public void listTest() {
         List<Integer> list = new ArrayList<>();
-        list.add(1);
-        list.add(1);
+        list.add(0);
+        list.add(0);
         list.add(19);
-        list.add(1);
+        list.add(0);
+        list.add(2);
+        list.add(0);
+        list.add(0);
+        list.add(2);
         list.add(2);
 
-        list.removeAll(Arrays.asList(1));
+        System.out.println(list);
 
+        list.removeAll(Arrays.asList(0,2));
         System.out.println(list);
 
     }
