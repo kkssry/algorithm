@@ -68,7 +68,7 @@ public class Solution {
     }
 
 
-    class Work {
+    class Work { 
         int arrive;
         int workingTime;
         int waitTime = 0;
