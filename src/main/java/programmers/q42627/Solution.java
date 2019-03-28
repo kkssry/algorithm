@@ -5,6 +5,7 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class Solution {
+    int maxTime;
     PriorityQueue<Integer> bestTime = new PriorityQueue<>();
 
     public int solution(int[][] jobs) {
@@ -23,7 +24,9 @@ public class Solution {
 
     private void callRecursive(List<Work> works, int depth) {
         if (depth == works.size()) {
-            bestTime.add(progressTime(works));
+            if (maxTime > progressTime(works)) {
+                maxTime = progressTime(works);
+            }
             System.out.println(works);
             return;
         }
@@ -44,22 +47,23 @@ public class Solution {
     private int progressTime(List<Work> works) {
         int totalTime = 0;
         int endTime = 0;
+        Work currentWorking = null;
 
-        for (int i = 0; i < works.size(); i++) {
-            if (i == 0) {
-                endTime = works.get(i).arrive + works.get(i).workingTime;
-                totalTime += works.get(i).workingTime - works.get(i).arrive;
-            } else {
-                if (endTime < works.get(i).arrive) {
-                    endTime = works.get(i).arrive - endTime + works.get(i).workingTime;
-                    totalTime += endTime + works.get(i).workingTime;
-                } else {
-                    endTime += works.get(i).arrive;
-                    totalTime += Math.abs(works.get(i).arrive - endTime) + works.get(i).workingTime;
+
+        while(works.stream().filter(i->i.isComplete).count() != works.size()) {
+            int time = 0;
+            for (Work work : works) {
+                if (work.arrive == time) {
+                    work.start();
+                    currentWorking = work;
                 }
             }
-//            totalTime += Math.abs(totalTime - works.get(i).arrive) + works.get(i).workingTime;
+
+
+            time++;
         }
+
+
         return totalTime;
     }
 
@@ -68,19 +72,29 @@ public class Solution {
         int arrive;
         int workingTime;
         int waitTime = 0;
+        int progress = 0;
         boolean isComplete = false;
+        boolean isStart = false;
 
         public Work(int arrive, int workingTime) {
             this.arrive = arrive;
             this.workingTime = workingTime;
         }
 
-        public void waiting() {
+        public void waitting() {
             ++workingTime;
         }
 
         public void complete() {
-            isComplete = true;
+            isComplete = !isComplete;
+        }
+
+        public void start() {
+            isStart = !isStart;
+        }
+
+        public void progress() {
+            ++progress;
         }
 
         @Override

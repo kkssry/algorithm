@@ -3,7 +3,9 @@ package programmers.q42627;
 
 import org.junit.Test;
 
+import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.List;
 import java.util.PriorityQueue;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;
@@ -54,5 +56,18 @@ public class SolutionTest {
 
     private void print(int[] a) {
         System.out.println(Arrays.toString(a));
+    }
+
+    @Test
+    public void listTest() {
+        List<Integer> list = new ArrayList<>(Arrays.asList(1, 2, 3, 4, 5));
+
+        callList(list);
+        System.out.println(list);
+    }
+
+    private void callList(List<Integer> list) {
+        list.set(0,9);
+        list.set(1,100);
     }
 }
