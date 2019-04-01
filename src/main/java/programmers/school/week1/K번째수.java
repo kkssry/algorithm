@@ -1,6 +1,6 @@
 package programmers.school.week1;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.util.*;
 import java.util.Collections;
