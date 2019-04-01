@@ -8,7 +8,7 @@ import java.util.List;
 public class Solution {
     public int[] solution(int[] arr) {
         int[] answer = {};
- 
+
         Integer[] numberBox = Arrays.stream(arr).boxed().toArray(Integer[]::new);
         List<Integer> numbers = new ArrayList<>(Arrays.asList(numberBox));
 
