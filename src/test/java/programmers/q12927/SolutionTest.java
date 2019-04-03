@@ -13,8 +13,8 @@ public class SolutionTest {
     @Test
     public void mainTest() {
         Solution sol = new Solution();
-        int[] works = {1,1};
-        assertThat(sol.solution(3,works)).isEqualTo(12);
+        int[] works = {4,3,3};
+        assertThat(sol.solution(4,works)).isEqualTo(12);
     }
 
     @Test
