@@ -9,6 +9,7 @@ public class 게임맵최단거리Test {
     @Test
     public void Test() {
         게임맵최단거리 sol = new 게임맵최단거리();
-        assertThat(1).isEqualTo(2);
+        int[][] maps = {{1,0,1,1,1},{1,0,1,0,1},{1,0,1,1,1},{1,1,1,0,1},{0,0,0,0,1}};
+        assertThat(sol.solution(maps)).isEqualTo(11);
     }
 }
