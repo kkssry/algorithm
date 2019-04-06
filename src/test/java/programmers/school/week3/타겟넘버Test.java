@@ -11,8 +11,8 @@ public class 타겟넘버Test {
     @Test
     public void Test() {
         타겟넘버 sol = new 타겟넘버();
-        int[] numbers = {1,1,1,1,1};
-        assertThat(sol.solution(numbers,3)).isEqualTo(5);
+        int[] numbers = {1,1,1,1};
+        assertThat(sol.solution(numbers,2)).isEqualTo(5);
     }
 
     @Test
