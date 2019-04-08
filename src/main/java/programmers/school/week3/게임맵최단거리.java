@@ -1,11 +1,9 @@
 package programmers.school.week3;
 
-import java.util.Arrays;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class 게임맵최단거리 {
-    Set<Integer> shortestPath = new TreeSet<>();
+    List<Integer> shortestPath = new LinkedList<>();
 
     public int solution(int[][] maps) {
         int answer = 0;
@@ -21,7 +19,7 @@ public class 게임맵최단거리 {
         if (shortestPath.isEmpty()) {
             return -1;
         }
-        answer = shortestPath.iterator().next();
+        answer = Collections.min(shortestPath);
 
         return answer;
     }
@@ -39,15 +37,15 @@ public class 게임맵최단거리 {
             answer++;
             bol[row][column] = true;
 
-            if (row > 0) {
-                if (maps[row - 1][column] == 1 && !bol[row - 1][column]) {    // 위
-                    recursive(maps, row -1, column, bol, answer);
+            if (row < maps.length - 1) {
+                if (maps[row + 1][column] == 1 && !bol[row + 1][column]) {   // 아래
+                    recursive(maps, row + 1, column, bol, answer);
                 }
             }
 
-            if (column > 0) {
-                if (maps[row][column - 1] == 1 && !bol[row][column - 1]) {    // 왼쪽
-                    recursive(maps, row, column - 1, bol, answer);
+            if (row > 0) {
+                if (maps[row - 1][column] == 1 && !bol[row - 1][column]) {    // 위
+                    recursive(maps, row -1, column, bol, answer);
                 }
             }
 
@@ -57,16 +55,20 @@ public class 게임맵최단거리 {
                 }
             }
 
-            if (row < maps.length - 1) {
-                if (maps[row + 1][column] == 1 && !bol[row + 1][column]) {   // 아래
-                    recursive(maps, row + 1, column, bol, answer);
+
+            if (column > 0) {
+                if (maps[row][column - 1] == 1 && !bol[row][column - 1]) {    // 왼쪽
+                    recursive(maps, row, column - 1, bol, answer);
                 }
             }
-
 
         }
 
         bol[row][column] = false;
+        for (int i = 0; i < bol.length; i++) {
+            System.out.println(Arrays.toString(bol[i]));
+        }
+        System.out.println("------------");
 
     }
 }
