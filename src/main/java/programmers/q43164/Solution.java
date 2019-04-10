@@ -26,7 +26,7 @@ public class Solution {
                 }
 
                 return o1[1].compareTo(o2[1]);
-            }
+            } 
         });
 
 //        Arrays.sort(tickets, Comparator.comparing(o -> o[1]));
