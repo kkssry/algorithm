@@ -3,9 +3,7 @@ package programmers.q12927;
 
 import org.junit.Test;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
+import java.util.*;
 
 import static org.assertj.core.api.Java6Assertions.assertThat;
 
@@ -40,5 +38,16 @@ public class SolutionTest {
         Arrays.sort(arr);
         arr[0] = 3;
         System.out.println("호출 받는 함수 : " + Arrays.toString(arr));
+    }
+
+    @Test
+    public void treeMapTest() {
+        PriorityQueue<Integer> pr = new PriorityQueue<>();
+        pr.add(5);pr.add(6);pr.add(3);pr.add(7);pr.add(9);pr.add(10);
+        System.out.println(pr.poll());
+
+        PriorityQueue<Integer> pr2 = new PriorityQueue<>(Comparator.reverseOrder());
+        pr.add(5);pr.add(6);pr.add(3);pr.add(7);pr.add(9);pr.add(1);
+        System.out.println(pr2.poll());
     }
 }
