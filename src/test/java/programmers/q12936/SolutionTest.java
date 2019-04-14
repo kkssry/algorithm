@@ -13,7 +13,7 @@ public class SolutionTest {
     public void mainTest() {
         Solution sol = new Solution();
         int[] arr = {3, 1, 2};
-        assertThat(sol.solution(5, 97)).isEqualTo(arr);
+        assertThat(sol.solution(5, 96)).isEqualTo(arr);
     }
 
     @Test
