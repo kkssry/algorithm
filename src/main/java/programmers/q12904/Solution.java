@@ -3,7 +3,7 @@ package programmers.q12904;
 public class Solution {
     public int solution(String s) {
         int answer = 1;
-        int length = s.length();        ///         '///' 밑금친거 때문에 효율성 통과...
+        int length = s.length();            ///         '///' 밑금친거 때문에 효율성 통과...
 
         for (int i = 0; i < s.length() - 1; i++) {
             if(i==length-answer) {          ///
