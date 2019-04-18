@@ -1,4 +1,4 @@
-package baekjoon.q2441;
+package baekjoon.star.dot.q2441;
 
 import java.io.BufferedReader;
 import java.io.IOException;
