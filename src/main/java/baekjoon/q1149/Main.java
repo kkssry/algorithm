@@ -1,62 +1,42 @@
 package baekjoon.q1149;
 
-import java.io.BufferedReader;
-import java.io.IOException;
-import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.io.*;
+import java.util.*;
 
 public class Main {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int input = Integer.parseInt(br.readLine());
-        int[] answers = new int[input];
 
         int[][] houses = new int[input][3];
-
 
         for (int i = 0; i < input; i++) {
             houses[i] = Arrays.stream(br.readLine().split(" ")).mapToInt(Integer::parseInt).toArray();
         }
 
+        int[][] dp = new int[input][3];
+
         for (int i = 0; i < houses[0].length; i++) {
-            boolean[] isPaint = new boolean[3];
-            List<Integer> list = new ArrayList<>();
-            answers[i] += houses[0][i];
-            isPaint[i] = true;
-            recursive(houses, isPaint, 1, answers, i, list);
+            dp[0][i] = houses[0][i];
         }
 
-        System.out.println(Arrays.toString(answers));
-    }
+        for (int i = 1; i < houses.length; i++) {
+            for (int j = 0; j < houses[i].length; j++) {
+                if (j == 0) {
+                    dp[i][j] = Math.min(dp[i - 1][j + 1], dp[i - 1][j + 2]) + houses[i][j];
+                }
 
-    private static void recursive(int[][] houses, boolean[] isPaint, int depth, int[] answers, int i, List<Integer> list) {
-        if (depth == houses.length) {
-            return;
-        }
+                if (j == 1) {
+                    dp[i][j] = Math.min(dp[i - 1][j - 1], dp[i - 1][j + 1]) + houses[i][j];
+                }
 
-
-        for (int j = 0; j < houses[depth].length; j++) {
-            if (!isPaint[j]) {
-                list.add(houses[depth][j]);
+                if (j == 2) {
+                    dp[i][j] = Math.min(dp[i - 1][j - 2], dp[i - 1][j - 1]) + houses[i][j];
+                }
             }
         }
 
-        isPaint[depth -1] = false;
-        Collections.sort(list);
-        int min = list.get(0);
-        list.clear();
+        System.out.println(Arrays.stream(dp[dp.length - 1]).min().getAsInt());
 
-        answers[i] += min;
-
-        for (int j = 0; j <houses[depth].length; j++) {
-            if (houses[depth][j] == min && !isPaint[j]) {
-                isPaint[j] = true;
-            }
-        }
-
-        recursive(houses, isPaint, depth + 1, answers, i, list);
     }
 }
