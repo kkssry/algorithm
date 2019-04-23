@@ -32,11 +32,15 @@ public class Solution {
     }
 
     private void pathInPuddle(int[][] paths, int[][] puddles) {
-        for (int i = 0; i < puddles.length; i++) {
-            int x = puddles[i][0];
-            int y = puddles[i][1];
-            paths[y - 1][x - 1] = -1;
+        for (int[] puddle : puddles) {
+            paths[puddle[0] - 1][puddle[1] - 1] = -1;
         }
+
+//        for (int i = 0; i < puddles.length; i++) {
+//            int x = puddles[i][0];
+//            int y = puddles[i][1];
+//            paths[y - 1][x - 1] = -1;
+//        }
     }
 
     private void pathDetailInit(int[][] paths) {
