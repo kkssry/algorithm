@@ -11,7 +11,7 @@ public class 도둑질Test {
     @Test
     public void finalTest() {
         도둑질 sol = new 도둑질();
-        int[] money = {9,9,9,9,5};
+        int[] money = {1,2,3,4,5,6,7,8,9};
         System.out.println(sol.solution(money));
     }
 
