@@ -1,39 +1,36 @@
 package programmers.q12927;
 
-
 import java.util.Arrays;
 
 public class Solution {
     public long solution(int n, int[] works) {
-        long answer = 0;
-        int length = works.length;
+        if (Arrays.stream(works).sum() < n) {
+            return 0;
+        }
 
-//        if (works.length == 1) {
-//            while (n != 0) {
-//                return works[0] - n;
-//            }
-//        }
+        int max = Arrays.stream(works).max().getAsInt();
+        loop:
+        while (true) {
+            for (int j = 0; j < works.length; j++) {
+                if (works[j] == max) {
+                    works[j]--;
+                    n -= 1;
+                }
 
-        for (int j = 0; j < n; j++) {
-            int maxIndex = 0;
-            int maxValue = 0;
-            for (int i = 0; i < works.length; i++) {
-                if (maxValue < works[i]) {
-                    maxValue = works[i];
-                    maxIndex = i;
+                if (n == 0) {
+                    break loop;
                 }
             }
-            if (works[maxIndex] == 0) {
-                return 0;
-            }
-            works[maxIndex]--;
+            max -= 1;
         }
 
-        for (int i = 0; i < works.length; i++) {
-            answer += (works[i] * works[i]);
-        }
+//        int length = works.length;
 
-        return answer;
+//        for (int j = 0; j < n; j++) {               // 감소할때 마다 정렬하니 시간초과
+//            Arrays.sort(works);
+//            works[length - 1]--;
+//        }
 
+        return Arrays.stream(works).mapToLong(i -> i * i).sum();
     }
 }

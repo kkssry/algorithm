@@ -11,8 +11,8 @@ public class SolutionTest {
     @Test
     public void mainTest() {
         Solution sol = new Solution();
-        int[] works = {4,3,3};
-        assertThat(sol.solution(4,works)).isEqualTo(12);
+        int[] works = {2,1,2};
+        assertThat(sol.solution(1,works)).isEqualTo(12);
     }
 
     @Test
