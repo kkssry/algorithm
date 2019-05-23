@@ -1,4 +1,4 @@
-package baekjoon.one.dimensional.array.q8958;
+package baekjoon.q8958;
 
 import java.io.IOException;
 import java.util.Scanner;

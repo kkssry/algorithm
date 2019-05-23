@@ -1,4 +1,4 @@
-package baekjoon.one.dimensional.array.q1152;
+package baekjoon.use.string.q1152;
 
         import java.io.BufferedReader;
         import java.io.IOException;
