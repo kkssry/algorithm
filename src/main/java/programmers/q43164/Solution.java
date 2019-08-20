@@ -3,126 +3,134 @@ package programmers.q43164;
 import java.util.*;
 
 public class Solution {
-    List<String[]> paths = new ArrayList<>();
-    List<String> path = new ArrayList<>();
-    boolean isRight = true;
+    List<City> list = new ArrayList<>();
 
     public String[] solution(String[][] tickets) {
-        String[] answer = {};
-
-        boolean[] bol = new boolean[tickets.length];
-
-        Arrays.sort(tickets, new Comparator<String[]>() {
-            @Override
-            public int compare(String[] o1, String[] o2) {
-                if (o1[0].equals(o2[0])) {
-                    return o1[1].compareTo(o2[1]);
-                }
-                if (o2[0].equals("ICN")) {
-                    return 1;
-                }
-                if (o1[0].equals("ICN")) {
-                    return -1;
-                }
-
-                return o1[1].compareTo(o2[1]);
-            }
-        });
-
-//        Arrays.sort(tickets, Comparator.comparing(o -> o[1]));
-
-
-        recursive(tickets, bol, "ICN", 0);
-
-        Collections.sort(paths, new Comparator<String[]>() {
-            @Override
-            public int compare(String[] o1, String[] o2) {
-                for (int i = 0; i < o1.length; i++) {
-                    for (int j = 0; j < o1[i].length(); j++) {
-                        if (o1[i].charAt(j) > o2[i].charAt(j)) {
-                            return 1;
-                        }
-                        if (o1[i].charAt(j) < o2[i].charAt(j)) {
-                            return -1;
-                        }
-                    }
-                }
-                return 0;
-            }
-        });
-
-        for (int i = 0; i < paths.size(); i++) {
-            System.out.println(Arrays.toString(paths.get(i)));
-        }
-//        System.out.println(Arrays.deepToString(paths));
-
-        answer = paths.get(0);
-
-
+        String[] answer = new String[tickets.length + 1];
+        City[] cities = new City[tickets.length];
+        initCities(cities, tickets);
+        PriorityQueue<City> priorityQueue = new PriorityQueue<>();
+        initPriorityQueue(priorityQueue, cities);
+        Arrays.sort(cities);
+        saveResult(priorityQueue, cities);
+        initAnswer(list,answer);
+//        System.out.println(Arrays.toString(answer));
         return answer;
     }
 
-    private void recursive(String[][] tickets, boolean[] bol, String start, int pathCount) {
-
-        int trueCount = 0;
-        for (int i = 0; i < bol.length; i++) {
-            if (bol[i]) {
-                trueCount++;
+    private void initAnswer(List<City> list, String[] answer) {
+        for (int i = 0; i < answer.length; i++) {
+            if (i == 0) {
+                answer[i] = list.get(0).departurePlace;
+            }
+            if (i == 1) {
+                answer[i] = list.get(0).arrivalPlace;
+            }
+            if (i > 1) {
+                answer[i] = list.get(i - 1).arrivalPlace;
             }
         }
+    }
 
-        if (trueCount == tickets.length) {
-//            System.out.println(path);
-            String[] temp = new String[path.size()];
-            paths.add(path.toArray(temp));
-            path.clear();
+    private void initCities(City[] cities, String[][] tickets) {
+        for (int i = 0; i < cities.length; i++) {
+            cities[i] = new City(i, tickets[i][0], tickets[i][1]);
+        }
+    }
+
+    private void saveResult(PriorityQueue<City> priorityQueue, City[] cities) {
+        while (!priorityQueue.isEmpty()) {
+            list.clear();
+            initIsCheckedAndCount(cities);
+            City startCity = priorityQueue.poll();
+            checkCount(cities, startCity);
+            list.add(startCity);
+            startDFS(cities, startCity);
+            if (list.size() == cities.length) {
+                return;
+            }
+        }
+    }
+
+    private void checkCount(City[] cities, City startCity) {
+        for (City city : cities) {
+            if (city.equals(startCity)) {
+                city.isChecked = true;
+                return;
+            }
+        }
+    }
+
+    private void startDFS(City[] cities, City previousCity) {
+        if (list.size() == cities.length) {
             return;
         }
 
-        loop:
-        for (int i = 0; i < tickets.length; i++) {
-
-            if (bol[i]) {
-                continue;
-            }
-
-            if (tickets[i][0].equals(start) && !bol[i]) {
-                isRight = true;
-                bol[i] = true;
-                if (pathCount == 0) {
-                    path.add(start);
-                }
-                start = tickets[i][1];
-                path.add(start);
-                recursive(tickets, bol, start, pathCount + 1);
-                bol[i] = false;
-                int count = 0;
-                for (int j = 0; j < tickets.length; j++) {
-                    if (tickets[j][0].equals(start) && !bol[j]) {
-                        count++;
+        for (City nextCity : cities) {
+            if (previousCity.arrivalPlace.equals(nextCity.departurePlace) && !nextCity.isChecked) {
+                    nextCity.isChecked = true;
+                    list.add(nextCity);
+                    startDFS(cities, nextCity);
+                    if (list.size() == cities.length) {
+                        return;
                     }
-                }
-                if (count > 1) {
-//                    start = tickets[i][0];
-
-                    return;
-                }
-//                return;
-                if (!isRight) {
-                    start = tickets[i][0];
-                    continue loop;
-                }
-                if (pathCount == 0) {
-                    start = "ICN";
-                    continue loop;
-                } else {
-                    return;
-                }
+                    list.remove(nextCity);
+                    nextCity.isChecked = false;
             }
         }
-        if (pathCount != 0) {
-            path.remove(path.size() - 1);
-            isRight = false;
+    }
+
+    private void initIsCheckedAndCount(City[] cities) {
+        for (City city : cities) {
+            city.isChecked = false;
+        }
+    }
+
+    private void initPriorityQueue(PriorityQueue<City> priorityQueue, City[] cities) {
+        for (City city : cities) {
+            if (city.departurePlace.equals("ICN")) {
+                priorityQueue.add(city);
+            }
+        }
+    }
+
+    static class City implements Comparable<City> {
+        int id;
+        String departurePlace;
+        String arrivalPlace;
+        boolean isChecked;
+
+        City(int id, String departurePlace, String arrivalPlace) {
+            this.id = id;
+            this.departurePlace = departurePlace;
+            this.arrivalPlace = arrivalPlace;
+        }
+
+        @Override
+        public boolean equals(Object o) {
+            if (this == o) return true;
+            if (!(o instanceof City)) return false;
+            City city = (City) o;
+            return id == city.id;
+        }
+
+        @Override
+        public int hashCode() {
+            return Objects.hash(id);
+        }
+
+        @Override
+        public int compareTo(City o) {
+            if (departurePlace.compareTo(o.departurePlace) == 0) {
+                return arrivalPlace.compareTo(o.arrivalPlace);
+            }
+            return departurePlace.compareTo(o.departurePlace);
+        }
+
+        @Override
+        public String toString() {
+            return id + " " + departurePlace + " " + arrivalPlace;
+
         }
     }
 }
